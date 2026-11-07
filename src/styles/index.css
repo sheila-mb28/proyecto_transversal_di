@@ -1,0 +1,21 @@
+:root {
+  --color-claro: #E8D2B5;
+  --color-medio: #a7b4a3;
+  --color-verde: #ccd6c9;
+  --color-oscuro: #590907;
+  --color-blanco: #ffffff;
+  --color-alto-valor: #af872f;
+  --color-resuelta: #9FBF9A;
+  --color-pendiente: #D9A38E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--color-verde);
+  color: var(--color-oscuro);
+}

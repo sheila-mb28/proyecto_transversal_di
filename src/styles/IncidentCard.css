@@ -1,0 +1,24 @@
+.incident-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--color-oscuro);
+  border-radius: 0.5rem;
+}
+
+.incident-card.resuelta {
+  background: var(--color-resuelta);
+}
+
+.incident-card.pendiente {
+  background: var(--color-pendiente);
+}
+
+.incident-card p {
+  margin: 0;
+}
+
+.incident-estado {
+  font-weight: 700;
+}

@@ -1,0 +1,14 @@
+.employee-card {
+  padding: 1rem;
+  background: var(--color-claro);
+  border: 1px solid var(--color-oscuro);
+  border-radius: 0.5rem;
+}
+
+.employee-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.employee-card p {
+  margin: 0.25rem 0;
+}

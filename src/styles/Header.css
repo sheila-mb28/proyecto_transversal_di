@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  background: var(--color-oscuro);
+  color: var(--color-claro);
+  border-bottom: 2px solid #290303;
+}
+
+.header-empresa {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.header-logo {
+  width: 2.5rem;
+  height: 2.5rem;  
+}
+
+.header-nombre {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.header-hora {
+  font-variant-numeric: tabular-nums;
+}

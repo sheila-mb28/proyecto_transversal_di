@@ -1,0 +1,21 @@
+.app-btn {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--color-claro);
+  background: var(--color-oscuro);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+.app-btn:hover {
+  background: #3a0404;
+  transform: scale(1.08);
+}
+
+.app-btn:active {
+    background: #200202;
+    transform: scale(0.95);
+}

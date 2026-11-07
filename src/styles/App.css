@@ -1,0 +1,17 @@
+.pagina-entera {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-area {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+#panel_central {
+  flex: 1;
+  padding: 1.25rem;
+  overflow-y: auto;
+}
