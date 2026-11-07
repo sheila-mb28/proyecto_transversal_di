@@ -1,21 +1,31 @@
 .app-btn {
   padding: 0.75rem 1rem;
   font-size: 1rem;
+  font-weight: 600;
   text-align: left;
-  color: var(--color-claro);
-  background: var(--color-oscuro);
-  border: none;
+  /* color: var(--color-claro); */
+  color: var(--color-oscuro);
+  /* background: var(--color-oscuro); */
+  background: var(--color-beige);
+  /* border: none; */
+  border: 2px solid var(--color-oscuro);
   border-radius: 0.5rem;
   cursor: pointer;
   transition: ease-in-out 200ms;
 }
 
 .app-btn:hover {
-  background: #3a0404;
-  transform: scale(1.08);
+  background: var(--color-claro);
+  transform: scale(1.04);
 }
 
 .app-btn:active {
-    background: #200202;
-    transform: scale(0.95);
+  background: var(--color-oscuro);
+  color: var(--color-beige);
+  transform: scale(0.97);
+}
+
+.app-btn.activo {
+  background: var(--color-oscuro);
+  color: var(--color-beige);
 }

@@ -43,7 +43,7 @@ function Incidencias() {
 
   return (
     <div>
-      <h2>Incidencias</h2>
+      <h1 className="titulo-vista">Incidencias</h1>
 
       {incidencias.length === 0 && !cargando && (
         <AppBtn title="Cargar incidencias" alPulsar={() => cargarIncidencias()} />

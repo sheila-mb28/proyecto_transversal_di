@@ -14,7 +14,7 @@ function App() {
     <div className="pagina-entera">
       <Header />
       <div className="main-area">
-        <Sidebar cambiarSeccion={setSeccion}/>
+        <Sidebar cambiarSeccion={setSeccion} seccionActual={seccion}/>
         <main id="panel_central">
           {seccion === 'Personal' && <Personal />}
           {seccion === 'Inventario' && <Inventario />}

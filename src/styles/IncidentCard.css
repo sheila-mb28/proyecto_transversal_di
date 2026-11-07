@@ -3,16 +3,18 @@
   flex-direction: column;
   gap: 0.5rem;
   padding: 1rem;
-  border: 1px solid var(--color-oscuro);
+  background: var(--color-beige);
+  border: 2px solid var(--color-oscuro);
+  border-left-width: 7px;
   border-radius: 0.5rem;
 }
 
 .incident-card.resuelta {
-  background: var(--color-resuelta);
+  border-color: var(--color-resuelta);
 }
 
 .incident-card.pendiente {
-  background: var(--color-pendiente);
+  border-color: var(--color-pendiente);
 }
 
 .incident-card p {

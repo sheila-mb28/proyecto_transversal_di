@@ -48,7 +48,7 @@ function Inventario() {
 
   return (
     <div>
-      <h2>Inventario</h2>
+      <h1 className="titulo-vista">Inventario</h1>
 
       {productos.length === 0 && !cargando && (
         <AppBtn title="Cargar inventario" alPulsar={() => cargarProductos()} />

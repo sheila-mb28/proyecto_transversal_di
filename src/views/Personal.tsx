@@ -54,7 +54,7 @@ function Personal() {
 
   return (
     <div>
-      <h2>Personal</h2>
+      <h1 className="titulo-vista">Personal</h1>
       {empleados.length === 0 && !cargando && (
         <AppBtn title="Cargar personal" alPulsar={() => cargarEmpleados()}/>
       )}

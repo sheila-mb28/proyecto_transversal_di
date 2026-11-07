@@ -3,14 +3,15 @@ import AppBtn from './AppBtn.tsx';
 
 interface Props {
   cambiarSeccion: (seccion: string) => void;
+  seccionActual: string;
 }
 
-function Sidebar({cambiarSeccion}: Props) {
+function Sidebar({cambiarSeccion, seccionActual}: Props) {
   return(
     <div className="sidebar">
-      <AppBtn title="Personal" alPulsar={() => cambiarSeccion('Personal')}/>
-      <AppBtn title="Inventario" alPulsar={() => cambiarSeccion('Inventario')}/>
-      <AppBtn title="Incidencias" alPulsar={() => cambiarSeccion('Incidencias')}/>
+      <AppBtn title="Personal" activo={seccionActual === 'Personal'} alPulsar={() => cambiarSeccion('Personal')}/>
+      <AppBtn title="Inventario" activo={seccionActual === 'Inventario'} alPulsar={() => cambiarSeccion('Inventario')}/>
+      <AppBtn title="Incidencias" activo={seccionActual === 'Incidencias'} alPulsar={() => cambiarSeccion('Incidencias')}/>
     </div>
   );
 }
